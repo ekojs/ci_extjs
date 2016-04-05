@@ -1,0 +1,31 @@
+Ext.define("EJS.view.Navigation", {
+    extend: 'Ext.tree.Panel',
+    xtype: 'navigation',
+    title: 'List Menu',
+    rootVisible: false,
+    lines: false,
+    useArrows: true,
+	
+	/* initComponent: function(){
+		// var store = Ext.data.StoreManager.lookup('s_navigations');
+		var store = Ext.create('EJS.store.s_navigations',{autoLoad:true});
+		
+		this.store = store;
+		this.callParent();
+	} */
+	
+    root: {
+        expanded: true,
+        children: [{
+                text: 'MASTER',
+                expanded: true,
+                children: [
+                    { id: 'pengarang', text: 'Master Pengarang', leaf: true },
+                    { id: 'kategori', text: 'Master Kategori', leaf: true },
+                    { id: 'v_stat1', text: 'Contoh Menu', leaf: true }
+                    // { id: 'v_stat1', text: 'Contoh Menu', leaf: true } --> v_stat1 = Nama Controller di ExtJS
+                ]
+            }
+        ]
+    }
+});
