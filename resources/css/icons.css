@@ -1,0 +1,130 @@
+/*
+ * GridFilters Styles
+ */
+ 
+#loading-mask{
+	background-color:white;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	z-index:20000;
+}
+#loading{
+	height:auto;
+	position:absolute;
+	left:45%;
+	top:40%;
+	padding:2px;
+	z-index:20001;
+}
+#loading a {
+	color:#225588;
+}
+#loading .loading-indicator{
+	background:white;
+	color:#444;
+	font:bold 13px Helvetica, Arial, sans-serif;
+	height:auto;
+	margin:0;
+	padding:10px;
+}
+#loading-msg {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.ux-filtered-column {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.ux-gridfilter-text-icon {
+    background-image: url(../images/icons/fam/find.png) !important;
+}
+/*
+ * RangeMenu Styles
+ */
+
+.ux-rangemenu-icon {
+    display: block;
+    height: 16px;
+    background: no-repeat 5px center;
+}
+
+.ux-rangemenu-gt {
+    background-image: url(../images/icons/fam/greater_than.png) !important;
+}
+
+.ux-rangemenu-lt {
+    background-image: url(../images/icons/fam/less_than.png) !important;
+}
+
+.ux-rangemenu-eq {
+    background-image: url(../images/icons/fam/equals.png) !important;
+}
+
+.icon-image {
+    background-image: url('../images/icons/fam/image_add.png') !important;
+}
+
+.icon-add {
+    background-image: url('../images/icons/fam/add.png') !important;
+}
+.icon-edit {
+    background-image: url('../images/icons/fam/pencil.png') !important;
+}
+.icon-remove {
+    background-image: url('../images/icons/fam/delete.png') !important;
+}
+.icon-form {
+    background-image: url('../images/icons/fam/application_form.png') !important;
+}
+.icon-grid {
+    background-image: url('../images/icons/fam/grid.png') !important;
+}
+.icon-pencil {
+    background-image: url('../images/icons/fam/pencil.png') !important;
+}
+.icon-save {
+    background-image: url('../images/icons/fam/save.png') !important;
+}
+.icon-reset {
+    background-image: url('../images/icons/fam/stop.png') !important;
+}
+.icon-excel {
+    background-image: url('../images/icons/fam/page_excel.png') !important;
+}
+.icon-print {
+    background-image: url('../images/icons/fam/printer.png') !important;
+}
+.icon-pdf {
+    background-image: url('../images/icons/fam/pdf_icon.png') !important;
+}
+.icon-calc {
+    background-image: url('../images/icons/fam/calculator.png') !important;
+}
+.icon-import {
+    background-image: url('../images/icons/fam/calculator.png') !important;
+}
+.icon-grid-detail {
+    background-image: url('../images/icons/fam/application_view_detail.png') !important;
+}
+.icon-gen {
+    background-image: url('../images/icons/fam/plugin_add.gif') !important;
+}
+.icon-plugin {
+    background-image: url('../images/icons/fam/plugin.gif') !important;
+}
+.logo-background {
+    background-image: url('../images/background.png')  no-repeat center;
+	width:100px;
+	height:100px;
+}
+.logo-google-white{
+	background-image: url('../images/powered-by-google-on-white.png') no-repeat center;
+}
+.logo-google-black{
+	background-image: url('../images/powered-by-google-on-non-white.png') no-repeat center;
+}
