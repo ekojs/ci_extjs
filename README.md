@@ -1,6 +1,6 @@
 Generator CRUD menggunakan Integrasi CI dan ExtJS4.2
 ==============
-	Copyright (C) 2015 Eko Junaidi Salam
+	Copyright (C) 2016 Eko Junaidi Salam
 
 ##Demo
 Contoh halaman [http://ekojs.github.io/ci_extjs](http://ekojs.github.io/ci_extjs) atau bisa melihat juga di [http://ekojs.github.io/akreditasi](http://ekojs.github.io/akreditasi)
@@ -16,3 +16,6 @@ Untuk menggunakan aplikasi ini, anda harus mengekstrak semuanya ke dalam satu fo
 * `ext/` - Folder yang berisi core framework ExtJS4.2
 * `resources/` - Folder ini dapa berisi file js, images, css
 * `system/` - Folder ini berisi core framework CodeIgniter
+
+##Baca Artikel berikut selengkapnya
+Untuk informasi tambahan baca di [ekojunaidisalam.com](http://ekojunaidisalam.com/2016/04/06/integrasi-ci-dan-extjs4-2/)
